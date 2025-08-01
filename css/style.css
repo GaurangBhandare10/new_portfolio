@@ -1002,9 +1002,6 @@ body.offcanvas {
       .project .desc span a {
         color: #000; }
     @media screen and (max-width: 768px) {
-      .project{
-        height: 100vh;
-      }
       .project .desc {
         opacity: 1;
         background: rgba(0, 0, 0, 0.4); }
@@ -1024,6 +1021,24 @@ body.offcanvas {
     .project:hover .desc span {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
+
+.hobbies {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  width: 100%;
+  display: block;
+  margin-bottom: 30px; }
+
+@media screen and (max-width: 768px){
+  .hobbies{
+    height: 100vh;
+  }
+  
+}
+
 
 .btn-load-more {
   width: 100%; }
